@@ -1,0 +1,44 @@
+fieldset{
+    width: 100%;
+    height: 600px;
+    background-image: url(8581.jpg_wh1200.jpg);
+    background-position: center;
+    background-size: cover;
+    background-color: aquamarine;
+}
+h1{
+    margin-top: 80px;
+
+}
+h1,h3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+label{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+input{
+    margin: 5px 0px;
+    padding: 3px;
+    width: 20%;
+    border: 2px solid black;
+}
+button{
+    width: 20%;
+    padding: 3px;
+    background-color: rgb(5, 9, 250);
+    color: rgb(247, 248, 248);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+    margin: 10px;
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
